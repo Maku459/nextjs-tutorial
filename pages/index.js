@@ -10,16 +10,12 @@ export default function Home ({ allPostsData }) {
     <Layout home>
       <Head>
         <title>{siteTitle}</title>
-        <link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=optional" rel="stylesheet" />
       </Head>
       <section className={utilStyles.headingMd}>
         <p>I'm Web Engineer at Kyoto.</p>
         <p>
           (This is a sample website - you’ll be building a site like this on{' '}
           <a href="https://nextjs.org/learn">our Next.js tutorial</a>.)
-        </p>
-        <p>
-          Branch Test
         </p>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
