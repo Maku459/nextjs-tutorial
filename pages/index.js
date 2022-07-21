@@ -10,7 +10,6 @@ export default function Home ({ allPostsData }) {
     <Layout home>
       <Head>
         <title>{siteTitle}</title>
-        <link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=optional" rel="stylesheet" />
       </Head>
       <section className={utilStyles.headingMd}>
         <p>I'm Web Engineer at Kyoto.</p>
